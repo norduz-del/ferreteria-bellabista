@@ -1,6 +1,6 @@
 // 1) Pega aquí el objeto firebaseConfig de tu app web en la consola de Firebase.
 export const firebaseConfig = {
-  apiKey: "PEGA_TU_API_KEY",
+  apiKey: "npm install firebase",
   authDomain: "TU-PROYECTO.firebaseapp.com",
   projectId: "TU-PROYECTO",
   storageBucket: "TU-PROYECTO.firebasestorage.app",
@@ -9,4 +9,4 @@ export const firebaseConfig = {
 };
 
 // 2) Correo del administrador: debe ser el mismo usuario de Authentication y el mismo de firestore.rules.
-export const ADMIN_EMAIL = "tu-correo@ejemplo.com";
+export const ADMIN_EMAIL = "norduz@isjdelasalle.edu.co";

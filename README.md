@@ -11,13 +11,13 @@ Sitio estático para consultar el inventario y preparar pedidos de Ferretería B
 - `js/sheets-config.js`: URL pública CSV que conecta la página con la hoja.
 - `data/products.csv`: catálogo de ejemplo listo para importar en Sheets (105 productos).
 - `data/products.json`: datos originales del catálogo de ejemplo.
-- `images/products/`: fotos locales opcionales; también se puede indicar una URL en la hoja.
+- `js/illustrations.js`: ilustraciones vectoriales originales usadas cuando un producto no tiene foto.
 
 ## 1. Crear la hoja de inventario
 
 1. Descarga `data/products.csv` desde GitHub (abre el archivo y elige **Download raw file**) o usa el CSV que ya tienes en el repositorio.
 2. En Google Sheets crea una hoja de cálculo y selecciona **Archivo → Importar → Subir**. Sube ese CSV y elige reemplazar la hoja actual. Así tendrás los 105 productos de ejemplo; reemplaza precios y existencias con los datos reales antes de publicar.
-3. La primera fila debe conservar estos encabezados, en este orden o cualquier otro: `id`, `nombre`, `categoria`, `precio`, `existencias`, `foto`. `id` y `foto` pueden quedar vacíos; `nombre`, `categoria`, `precio` y `existencias` son obligatorios. `precio` y `existencias` deben ser números sin símbolo de moneda ni separador de miles, por ejemplo `18500` y `12`. Si no hay foto, deja `foto` vacío; se usará la imagen local `images/products/<id>.jpg` y, si tampoco existe, el icono de categoría.
+3. La primera fila debe conservar estos encabezados, en este orden o cualquier otro: `id`, `nombre`, `categoria`, `precio`, `existencias`, `foto`. `id` y `foto` pueden quedar vacíos; `nombre`, `categoria`, `precio` y `existencias` son obligatorios. `precio` y `existencias` deben ser números sin símbolo de moneda ni separador de miles, por ejemplo `18500` y `12`. Si no hay URL de foto, la página crea una ilustración vectorial referencial según el nombre y la categoría.
 4. Para agregar productos, añade una fila; para quitarlos, elimina la fila. Los cambios se reflejan cuando la página vuelve a cargar; la publicación puede tardar un momento en actualizarse.
 
 ## 2. Publicar y conectar la hoja
@@ -33,9 +33,9 @@ La URL configurada usa el formato `https://docs.google.com/spreadsheets/d/e/.../
 
 En el repositorio ve a **Settings → Pages**, elige **Deploy from a branch**, la rama `main` y la carpeta `/ (root)`. La web quedará en `https://TU-USUARIO.github.io/ferreteria-bellabista/`.
 
-## Fotos
+## Imágenes de productos
 
-Puedes usar una URL pública de imagen en la columna `foto`, o guardar fotos propias en `images/products/` usando el id como nombre (por ejemplo, `p001.jpg`). Si la foto no está disponible, se muestra un ícono de la categoría. El script opcional `scripts/fetch_photos.py` descarga fotos desde Pexels; revisa cada imagen y su licencia antes de publicarla.
+Cada producto tiene una ilustración vectorial original generada localmente a partir de su nombre y categoría; se adapta a herramientas, materiales y otras familias del inventario y se identifica como **ilustración referencial**, no como una foto del producto exacto. Si la columna `foto` contiene una imagen, esa imagen se muestra en su lugar. Si no carga, la página vuelve a la ilustración. Para mostrar fotos reales, agrega una URL pública de imagen en la columna `foto` de Google Sheets.
 
 ## Carrito y pedidos
 

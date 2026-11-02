@@ -1,5 +1,6 @@
 import { SHEETS_CSV_URL } from "./sheets-config.js";
 import { productsFromCSV } from "./catalog.js";
+import { productIllustration } from "./illustrations.js";
 
 const $ = (selector) => document.querySelector(selector);
 const esc = (value) => String(value).replace(/[&<>"']/g, (char) => ({
@@ -13,11 +14,6 @@ const currency = new Intl.NumberFormat("es-CO", {
 const collator = new Intl.Collator("es");
 const CART_KEY = "bellabista-cart-v1";
 const WHATSAPP_PHONE = "573154187423";
-const CATEGORY_ICONS = {
-  "Herramientas manuales": "🔧", "Herramientas eléctricas": "⚡", "Tornillería": "🔩", "Plomería": "🚰",
-  "Electricidad": "💡", "Pinturas": "🎨", "Construcción": "🧱", "Jardinería": "🌱", "Seguridad": "🦺", "Cerraduras": "🔑",
-};
-
 let products = [];
 let cart = loadCart();
 
@@ -67,11 +63,13 @@ function renderCatalog() {
   const visible = filteredProducts();
   $("#catalog").innerHTML = visible.map((product) => {
     const stock = Math.max(0, Math.floor(product.stock));
-    const photo = product.photo || `images/products/${encodeURIComponent(product.id)}.jpg`;
+    const hasPhoto = Boolean(product.photo);
+    const image = product.photo || productIllustration(product);
     return `
       <article class="product-card">
-        <div class="product-photo">
-          <img src="${esc(photo)}" data-category="${esc(product.category)}" alt="${esc(product.name)}" loading="lazy">
+        <div class="product-photo${hasPhoto ? "" : " is-illustration"}">
+          <img src="${esc(image)}" data-product-id="${esc(product.id)}" data-illustration="${hasPhoto ? "false" : "true"}" alt="${esc(product.name)}" loading="lazy">
+          <span class="illustration-note"${hasPhoto ? " hidden" : ""}>Ilustración referencial</span>
           <span class="photo-badge">${esc(product.category)}</span>
         </div>
         <div class="product-info">
@@ -193,10 +191,13 @@ $("#year").textContent = String(new Date().getFullYear());
 
 $("#catalog").addEventListener("error", (event) => {
   const image = event.target;
-  if (image.tagName !== "IMG" || image.dataset.fallback) return;
-  image.dataset.fallback = "true";
-  const icon = CATEGORY_ICONS[image.dataset.category] || "🛠️";
-  image.src = `data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440"><rect width="640" height="440" fill="#e9eee5"/><text x="320" y="275" text-anchor="middle" font-size="150">${icon}</text></svg>`)}`;
+  if (image.tagName !== "IMG" || image.dataset.illustration === "true") return;
+  const product = productById(image.dataset.productId);
+  if (!product) return;
+  image.dataset.illustration = "true";
+  image.src = productIllustration(product);
+  image.parentElement.classList.add("is-illustration");
+  image.parentElement.querySelector(".illustration-note").hidden = false;
 }, true);
 
 async function loadCatalog() {

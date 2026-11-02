@@ -154,6 +154,8 @@ $("#catalog").addEventListener("click", (event) => {
   const id = button.dataset.add;
   const current = cart.find((entry) => entry.id === id)?.quantity || 0;
   updateCart(id, current + 1);
+  window.location.hash = "carrito";
+  $("#carrito").scrollIntoView({ behavior: "smooth", block: "start" });
   button.classList.add("added");
   button.setAttribute("aria-label", "Producto agregado al carrito");
   window.setTimeout(() => {

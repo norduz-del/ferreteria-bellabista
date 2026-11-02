@@ -1,12 +1,12 @@
 # Ferretería Bellabista
 
-Sitio estático para consultar el inventario de la ferretería. El dueño edita los productos en Google Sheets y la página los consulta desde una hoja publicada como CSV. No hay panel de administración ni se necesitan Firebase, cuentas de servicio o claves de API.
+Sitio estático para consultar el inventario y preparar pedidos de Ferretería Bellabista. El dueño edita los productos en Google Sheets y la página los consulta desde una hoja publicada como CSV. Los clientes pueden buscar y filtrar productos, armar un carrito y enviar el pedido por WhatsApp para confirmar disponibilidad y pagar en la ferretería. No hay panel de administración ni se necesitan Firebase, cuentas de servicio o claves de API.
 
 ## Archivos principales
 
-- `index.html`: página y catálogo público.
+- `index.html`: página principal con navegación, inventario, carrito y contacto.
 - `css/styles.css`: estilos.
-- `js/app.js`: carga y muestra la hoja, búsqueda, filtro por categoría y fotos.
+- `js/app.js`: carga y muestra la hoja, búsqueda, filtro por categoría, carrito local y pedido por WhatsApp.
 - `js/catalog.js`: lectura y validación del CSV.
 - `js/sheets-config.js`: URL pública CSV que conecta la página con la hoja.
 - `data/products.csv`: catálogo de ejemplo listo para importar en Sheets (105 productos).
@@ -36,6 +36,10 @@ En el repositorio ve a **Settings → Pages**, elige **Deploy from a branch**, l
 ## Fotos
 
 Puedes usar una URL pública de imagen en la columna `foto`, o guardar fotos propias en `images/products/` usando el id como nombre (por ejemplo, `p001.jpg`). Si la foto no está disponible, se muestra un ícono de la categoría. El script opcional `scripts/fetch_photos.py` descarga fotos desde Pexels; revisa cada imagen y su licencia antes de publicarla.
+
+## Carrito y pedidos
+
+El carrito se guarda en el navegador para conservar la selección al volver a visitar la página. Las cantidades no pueden superar las existencias publicadas en la hoja. Al enviar el pedido se abre WhatsApp con el detalle y el subtotal estimado; el cliente confirma la disponibilidad y paga directamente en la ferretería. La página no procesa pagos en línea. El teléfono de WhatsApp se configura en `js/app.js`.
 
 ## Probar en tu computador
 

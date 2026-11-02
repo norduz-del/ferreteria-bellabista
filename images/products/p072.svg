@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-label="Ilustración referencial de Rodillo 9 pulg con bandeja">
+  <rect width="320" height="260" fill="#e4ecea"/>
+  <path d="M0 214 320 168v92H0z" fill="#a5b8b2" opacity=".18"/>
+  <circle cx="246" cy="59" r="49" fill="#c5d98b" opacity=".36"/>
+  <circle cx="246" cy="59" r="62" fill="none" stroke="#31545a" stroke-opacity=".08"/>
+  <g fill="#31545a" stroke="#31545a" stroke-linecap="round" stroke-linejoin="round" transform="rotate(2 160 135)"><path d="M82 75h112v36H82z"/><path d="M179 111h22v48h-35"/><path d="M157 151h19v66h-19z"/><path class="detail" d="M94 84h88m-88 17h88"/></g>
+  <g fill="none" stroke="#c5d98b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="rotate(2 160 135)"><path d="M82 75h112v36H82z"/><path d="M179 111h22v48h-35"/><path d="M157 151h19v66h-19z"/><path class="detail" d="M94 84h88m-88 17h88"/></g>
+  <path d="M20 220h280" stroke="#31545a" stroke-opacity=".16"/>
+  <text x="20" y="239" fill="#31545a" font-family="Arial,sans-serif" font-size="12" font-weight="700">Rodillo 9 pulg con bandeja</text>
+  <text x="300" y="239" text-anchor="end" fill="#31545a" fill-opacity=".62" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.2">PINTURAS</text>
+  <text x="20" y="25" fill="#31545a" fill-opacity=".56" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.4">ILUSTRACIÓN REFERENCIAL</text>
+</svg>

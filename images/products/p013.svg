@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-label="Ilustración referencial de Serrucho de mano 18 pulg">
+  <rect width="320" height="260" fill="#e4ecea"/>
+  <path d="M0 214 320 168v92H0z" fill="#a5b8b2" opacity=".18"/>
+  <circle cx="246" cy="59" r="49" fill="#c5d98b" opacity=".36"/>
+  <circle cx="246" cy="59" r="62" fill="none" stroke="#31545a" stroke-opacity=".08"/>
+  <g fill="#31545a" stroke="#31545a" stroke-linecap="round" stroke-linejoin="round" transform="rotate(2 160 135)"><path d="M73 105 232 76l-20 99-139-31z"/><path d="m89 147 17 35 13-27 21 21 9-27 23 19 8-29 23 15 9-34z"/><path class="detail" d="m104 112 4 24m25-29 4 24m25-29 4 24m25-29 4 24"/></g>
+  <g fill="none" stroke="#c5d98b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="rotate(2 160 135)"><path d="M73 105 232 76l-20 99-139-31z"/><path d="m89 147 17 35 13-27 21 21 9-27 23 19 8-29 23 15 9-34z"/><path class="detail" d="m104 112 4 24m25-29 4 24m25-29 4 24m25-29 4 24"/></g>
+  <path d="M20 220h280" stroke="#31545a" stroke-opacity=".16"/>
+  <text x="20" y="239" fill="#31545a" font-family="Arial,sans-serif" font-size="12" font-weight="700">Serrucho de mano 18 pulg</text>
+  <text x="300" y="239" text-anchor="end" fill="#31545a" fill-opacity=".62" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.2">HERRAMIENTAS MANUALES</text>
+  <text x="20" y="25" fill="#31545a" fill-opacity=".56" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.4">ILUSTRACIÓN REFERENCIAL</text>
+</svg>

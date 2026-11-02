@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-label="Ilustración referencial de Chaleco reflectivo">
+  <rect width="320" height="260" fill="#e8ede2"/>
+  <path d="M0 214 320 168v92H0z" fill="#a7b49e" opacity=".18"/>
+  <circle cx="246" cy="59" r="49" fill="#d3ed75" opacity=".36"/>
+  <circle cx="246" cy="59" r="62" fill="none" stroke="#284335" stroke-opacity=".08"/>
+  <g fill="#284335" stroke="#284335" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-3 160 135)"><path d="M90 151a70 70 0 0 1 140 0v18H90z"/><path d="M76 164h168v24H76z"/><path class="detail" d="M160 87v64m-50-41 23 30m77-30-23 30"/></g>
+  <g fill="none" stroke="#d3ed75" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-3 160 135)"><path d="M90 151a70 70 0 0 1 140 0v18H90z"/><path d="M76 164h168v24H76z"/><path class="detail" d="M160 87v64m-50-41 23 30m77-30-23 30"/></g>
+  <path d="M20 220h280" stroke="#284335" stroke-opacity=".16"/>
+  <text x="20" y="239" fill="#284335" font-family="Arial,sans-serif" font-size="12" font-weight="700">Chaleco reflectivo</text>
+  <text x="300" y="239" text-anchor="end" fill="#284335" fill-opacity=".62" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.2">SEGURIDAD</text>
+  <text x="20" y="25" fill="#284335" fill-opacity=".56" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.4">ILUSTRACIÓN REFERENCIAL</text>
+</svg>

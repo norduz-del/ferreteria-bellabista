@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-label="Ilustración referencial de Pernos de expansión 1/4 pulg (x10)">
+  <rect width="320" height="260" fill="#eee7db"/>
+  <path d="M0 214 320 168v92H0z" fill="#c1b19a" opacity=".18"/>
+  <circle cx="246" cy="59" r="49" fill="#d79a66" opacity=".36"/>
+  <circle cx="246" cy="59" r="62" fill="none" stroke="#574b37" stroke-opacity=".08"/>
+  <g fill="#574b37" stroke="#574b37" stroke-linecap="round" stroke-linejoin="round" transform="rotate(0 160 135)"><path d="m160 45 39 22v47l-39 22-39-22V67z"/><path d="M151 132h18v85h-18zm-16 32h50v12h-50zm0 22h50v12h-50z"/><path class="detail" d="m139 73 21-12 21 12v25l-21 12-21-12z"/></g>
+  <g fill="none" stroke="#d79a66" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="rotate(0 160 135)"><path d="m160 45 39 22v47l-39 22-39-22V67z"/><path d="M151 132h18v85h-18zm-16 32h50v12h-50zm0 22h50v12h-50z"/><path class="detail" d="m139 73 21-12 21 12v25l-21 12-21-12z"/></g>
+  <path d="M20 220h280" stroke="#574b37" stroke-opacity=".16"/>
+  <text x="20" y="239" fill="#574b37" font-family="Arial,sans-serif" font-size="12" font-weight="700">Pernos de expansión 1/4 pul</text>
+  <text x="300" y="239" text-anchor="end" fill="#574b37" fill-opacity=".62" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.2">TORNILLERÍA</text>
+  <text x="20" y="25" fill="#574b37" fill-opacity=".56" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.4">ILUSTRACIÓN REFERENCIAL</text>
+</svg>

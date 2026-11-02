@@ -68,7 +68,7 @@ function renderCatalog() {
     return `
       <article class="product-card">
         <div class="product-photo${hasPhoto ? "" : " is-illustration"}">
-          <img src="${esc(image)}" data-product-id="${esc(product.id)}" data-illustration="${hasPhoto ? "false" : "true"}" alt="${esc(product.name)}" loading="lazy">
+          <img src="${esc(image)}" data-product-id="${esc(product.id)}" data-illustration="${hasPhoto ? "false" : "true"}" alt="${esc(hasPhoto ? product.name : `Ilustración referencial de ${product.name}`)}" loading="lazy">
           <span class="illustration-note"${hasPhoto ? " hidden" : ""}>Ilustración referencial</span>
           <span class="photo-badge">${esc(product.category)}</span>
         </div>
@@ -195,6 +195,7 @@ $("#catalog").addEventListener("error", (event) => {
   const product = productById(image.dataset.productId);
   if (!product) return;
   image.dataset.illustration = "true";
+  image.alt = `Ilustración referencial de ${product.name}`;
   image.src = productIllustration(product);
   image.parentElement.classList.add("is-illustration");
   image.parentElement.querySelector(".illustration-note").hidden = false;

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-label="Ilustración referencial de Aspersor giratorio">
+  <rect width="320" height="260" fill="#e4ecea"/>
+  <path d="M0 214 320 168v92H0z" fill="#a5b8b2" opacity=".18"/>
+  <circle cx="246" cy="59" r="49" fill="#c5d98b" opacity=".36"/>
+  <circle cx="246" cy="59" r="62" fill="none" stroke="#31545a" stroke-opacity=".08"/>
+  <g fill="#31545a" stroke="#31545a" stroke-linecap="round" stroke-linejoin="round" transform="rotate(1 160 135)"><path d="M160 45c-18 28-56 68-56 105a56 56 0 0 0 112 0c0-37-38-77-56-105z"/><path class="detail" d="M128 162a32 32 0 0 0 32 28"/></g>
+  <g fill="none" stroke="#c5d98b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="rotate(1 160 135)"><path d="M160 45c-18 28-56 68-56 105a56 56 0 0 0 112 0c0-37-38-77-56-105z"/><path class="detail" d="M128 162a32 32 0 0 0 32 28"/></g>
+  <path d="M20 220h280" stroke="#31545a" stroke-opacity=".16"/>
+  <text x="20" y="239" fill="#31545a" font-family="Arial,sans-serif" font-size="12" font-weight="700">Aspersor giratorio</text>
+  <text x="300" y="239" text-anchor="end" fill="#31545a" fill-opacity=".62" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.2">JARDINERÍA</text>
+  <text x="20" y="25" fill="#31545a" fill-opacity=".56" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.4">ILUSTRACIÓN REFERENCIAL</text>
+</svg>

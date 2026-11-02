@@ -7,6 +7,8 @@ Sitio estático para consultar el inventario y preparar pedidos de Ferretería B
 - `index.html`: página principal con visión de marca, accesos a categorías, guía de pedido, inventario, carrito y contacto.
 - `css/styles.css`: estilos.
 - `js/app.js`: carga y muestra la hoja, búsqueda, filtro por categoría, carrito local y pedido por WhatsApp.
+- `js/illustrations.js`: construye la ruta pública de ilustración para cada producto.
+- `scripts/generate_illustrations.py`: genera las ilustraciones SVG a partir del catálogo local.
 - `js/catalog.js`: lectura y validación del CSV.
 - `js/sheets-config.js`: URL pública CSV que conecta la página con la hoja.
 - `data/products.csv`: catálogo de ejemplo listo para importar en Sheets (105 productos).
@@ -33,9 +35,11 @@ La URL configurada usa el formato `https://docs.google.com/spreadsheets/d/e/.../
 
 En el repositorio ve a **Settings → Pages**, elige **Deploy from a branch**, la rama `main` y la carpeta `/ (root)`. La web quedará en `https://TU-USUARIO.github.io/ferreteria-bellabista/`.
 
-## Imágenes de productos
+## Ilustraciones y enlaces de productos
 
-Cada producto tiene una ilustración vectorial original generada localmente a partir de su nombre y categoría; se adapta a herramientas, materiales y otras familias del inventario y se identifica como **ilustración referencial**, no como una foto del producto exacto. Si la columna `foto` contiene una imagen, esa imagen se muestra en su lugar. Si no carga, la página vuelve a la ilustración. Para mostrar fotos reales, agrega una URL pública de imagen en la columna `foto` de Google Sheets.
+Cada producto tiene una ilustración vectorial original, adaptada a su nombre y categoría e identificada como **ilustración referencial**; no es una foto exacta del producto. Sus archivos están en `images/products/` y la lista con el nombre, categoría y enlace público directo está en [`data/illustration-links.csv`](data/illustration-links.csv). El patrón de URL es `https://norduz-del.github.io/ferreteria-bellabista/images/products/<id>.svg`, por ejemplo `https://norduz-del.github.io/ferreteria-bellabista/images/products/p001.svg`.
+
+No necesitas llenar la columna `foto` para usar estas ilustraciones: la página las muestra automáticamente. Si agregas una URL de foto en Sheets, esa foto tiene prioridad; si falla, se utiliza la ilustración correspondiente. Si se agregan productos al catálogo, ejecuta `python3 scripts/generate_illustrations.py` para generar sus SVG y actualizar la lista de enlaces desde `data/products.csv`.
 
 ## Carrito y pedidos
 

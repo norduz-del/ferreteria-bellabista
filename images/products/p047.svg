@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-label="Ilustración referencial de Flexible para lavamanos 40 cm">
+  <rect width="320" height="260" fill="#e4ecea"/>
+  <path d="M0 214 320 168v92H0z" fill="#a5b8b2" opacity=".18"/>
+  <circle cx="246" cy="59" r="49" fill="#c5d98b" opacity=".36"/>
+  <circle cx="246" cy="59" r="62" fill="none" stroke="#31545a" stroke-opacity=".08"/>
+  <g fill="#31545a" stroke="#31545a" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-2 160 135)"><path d="M91 68h34v84a22 22 0 0 0 22 22h48v34h-50a54 54 0 0 1-54-54z"/><path d="M81 57h54v32H81zm103 107h32v54h-32z"/><path class="detail" d="M90 73h36m-36 13h36m69 83v32m13-32v32"/></g>
+  <g fill="none" stroke="#c5d98b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-2 160 135)"><path d="M91 68h34v84a22 22 0 0 0 22 22h48v34h-50a54 54 0 0 1-54-54z"/><path d="M81 57h54v32H81zm103 107h32v54h-32z"/><path class="detail" d="M90 73h36m-36 13h36m69 83v32m13-32v32"/></g>
+  <path d="M20 220h280" stroke="#31545a" stroke-opacity=".16"/>
+  <text x="20" y="239" fill="#31545a" font-family="Arial,sans-serif" font-size="12" font-weight="700">Flexible para lavamanos 40 </text>
+  <text x="300" y="239" text-anchor="end" fill="#31545a" fill-opacity=".62" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.2">PLOMERÍA</text>
+  <text x="20" y="25" fill="#31545a" fill-opacity=".56" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.4">ILUSTRACIÓN REFERENCIAL</text>
+</svg>

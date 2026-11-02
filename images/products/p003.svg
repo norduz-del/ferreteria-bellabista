@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-label="Ilustración referencial de Destornillador plano 1/4 pulg">
+  <rect width="320" height="260" fill="#eee7db"/>
+  <path d="M0 214 320 168v92H0z" fill="#c1b19a" opacity=".18"/>
+  <circle cx="246" cy="59" r="49" fill="#d79a66" opacity=".36"/>
+  <circle cx="246" cy="59" r="62" fill="none" stroke="#574b37" stroke-opacity=".08"/>
+  <g fill="#574b37" stroke="#574b37" stroke-linecap="round" stroke-linejoin="round" transform="rotate(3 160 135)"><path d="M132 90 181 41l18 18-49 49z"/><path d="m112 108 30-30 20 20-30 30-12 40-20-20z"/><rect x="93" y="154" width="27" height="76" rx="12" transform="rotate(42 106 192)"/><path class="detail" d="m183 46 12 12"/></g>
+  <g fill="none" stroke="#d79a66" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="rotate(3 160 135)"><path d="M132 90 181 41l18 18-49 49z"/><path d="m112 108 30-30 20 20-30 30-12 40-20-20z"/><rect x="93" y="154" width="27" height="76" rx="12" transform="rotate(42 106 192)"/><path class="detail" d="m183 46 12 12"/></g>
+  <path d="M20 220h280" stroke="#574b37" stroke-opacity=".16"/>
+  <text x="20" y="239" fill="#574b37" font-family="Arial,sans-serif" font-size="12" font-weight="700">Destornillador plano 1/4 pu</text>
+  <text x="300" y="239" text-anchor="end" fill="#574b37" fill-opacity=".62" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.2">HERRAMIENTAS MANUALES</text>
+  <text x="20" y="25" fill="#574b37" fill-opacity=".56" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.4">ILUSTRACIÓN REFERENCIAL</text>
+</svg>

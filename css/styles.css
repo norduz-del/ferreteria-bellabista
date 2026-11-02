@@ -324,7 +324,7 @@ img { max-width: 100%; }
   .vision-board { min-height: 360px; padding: 22px; }
   .discover-section { padding: 58px 0 62px; }
   .discover-heading { display: block; }
-  .discover-heading h2 { font-size: 37px; }
+  .discover-heading h2 { font-size: clamp(30px, 9.5vw, 37px); }
   .discover-heading > p { margin-top: 12px; }
   .category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
   .category-tile { min-height: 157px; padding: 13px; }

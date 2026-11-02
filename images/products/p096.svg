@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-label="Ilustración referencial de Guantes de carnaza (par)">
+  <rect width="320" height="260" fill="#e9e9df"/>
+  <path d="M0 214 320 168v92H0z" fill="#b1b8aa" opacity=".18"/>
+  <circle cx="246" cy="59" r="49" fill="#e5ba72" opacity=".36"/>
+  <circle cx="246" cy="59" r="62" fill="none" stroke="#35473b" stroke-opacity=".08"/>
+  <g fill="#35473b" stroke="#35473b" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-2 160 135)"><path d="M111 199 92 137q-5-17 8-21 12-4 18 12l12 28-17-70q-4-16 9-20 13-3 18 14l14 56-8-72q-2-16 11-18 14-1 16 16l8 73 3-53q1-16 14-15 13 2 12 18l-3 81q-1 43-34 57l-28 12q-28 11-42-16z"/><path class="detail" d="m123 151 20 42m15-47 10 43m14-46 6 39"/></g>
+  <g fill="none" stroke="#e5ba72" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-2 160 135)"><path d="M111 199 92 137q-5-17 8-21 12-4 18 12l12 28-17-70q-4-16 9-20 13-3 18 14l14 56-8-72q-2-16 11-18 14-1 16 16l8 73 3-53q1-16 14-15 13 2 12 18l-3 81q-1 43-34 57l-28 12q-28 11-42-16z"/><path class="detail" d="m123 151 20 42m15-47 10 43m14-46 6 39"/></g>
+  <path d="M20 220h280" stroke="#35473b" stroke-opacity=".16"/>
+  <text x="20" y="239" fill="#35473b" font-family="Arial,sans-serif" font-size="12" font-weight="700">Guantes de carnaza (par)</text>
+  <text x="300" y="239" text-anchor="end" fill="#35473b" fill-opacity=".62" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.2">SEGURIDAD</text>
+  <text x="20" y="25" fill="#35473b" fill-opacity=".56" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.4">ILUSTRACIÓN REFERENCIAL</text>
+</svg>

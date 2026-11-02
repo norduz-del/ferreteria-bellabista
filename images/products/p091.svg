@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-label="Ilustración referencial de Tierra abonada (bulto 50 L)">
+  <rect width="320" height="260" fill="#eee7db"/>
+  <path d="M0 214 320 168v92H0z" fill="#c1b19a" opacity=".18"/>
+  <circle cx="246" cy="59" r="49" fill="#d79a66" opacity=".36"/>
+  <circle cx="246" cy="59" r="62" fill="none" stroke="#574b37" stroke-opacity=".08"/>
+  <g fill="#574b37" stroke="#574b37" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-2 160 135)"><path d="M153 141h18v77h-18z"/><path d="M160 48c-20 0-34 16-31 34-19 8-20 35-2 46-5 24 24 39 42 24 23 12 48-7 41-31 18-15 8-42-13-45 0-16-16-28-37-28z"/><path class="detail" d="M160 153v45m0-47-21-20m22 13 22-22"/></g>
+  <g fill="none" stroke="#d79a66" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-2 160 135)"><path d="M153 141h18v77h-18z"/><path d="M160 48c-20 0-34 16-31 34-19 8-20 35-2 46-5 24 24 39 42 24 23 12 48-7 41-31 18-15 8-42-13-45 0-16-16-28-37-28z"/><path class="detail" d="M160 153v45m0-47-21-20m22 13 22-22"/></g>
+  <path d="M20 220h280" stroke="#574b37" stroke-opacity=".16"/>
+  <text x="20" y="239" fill="#574b37" font-family="Arial,sans-serif" font-size="12" font-weight="700">Tierra abonada (bulto 50 L)</text>
+  <text x="300" y="239" text-anchor="end" fill="#574b37" fill-opacity=".62" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.2">JARDINERÍA</text>
+  <text x="20" y="25" fill="#574b37" fill-opacity=".56" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.4">ILUSTRACIÓN REFERENCIAL</text>
+</svg>

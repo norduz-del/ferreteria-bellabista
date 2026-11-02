@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-label="Ilustración referencial de Alicate universal 8 pulg">
+  <rect width="320" height="260" fill="#e9e9df"/>
+  <path d="M0 214 320 168v92H0z" fill="#b1b8aa" opacity=".18"/>
+  <circle cx="246" cy="59" r="49" fill="#e5ba72" opacity=".36"/>
+  <circle cx="246" cy="59" r="62" fill="none" stroke="#35473b" stroke-opacity=".08"/>
+  <g fill="#35473b" stroke="#35473b" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-2 160 135)"><path d="M119 145 77 103l15-15 42 42 36-36a39 39 0 0 1 50-49l-25 25 21 21 25-25a39 39 0 0 1-49 50l-57 57a14 14 0 0 1-20-20z"/><path class="detail" d="m88 99 15-15m35 54 11-11"/></g>
+  <g fill="none" stroke="#e5ba72" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-2 160 135)"><path d="M119 145 77 103l15-15 42 42 36-36a39 39 0 0 1 50-49l-25 25 21 21 25-25a39 39 0 0 1-49 50l-57 57a14 14 0 0 1-20-20z"/><path class="detail" d="m88 99 15-15m35 54 11-11"/></g>
+  <path d="M20 220h280" stroke="#35473b" stroke-opacity=".16"/>
+  <text x="20" y="239" fill="#35473b" font-family="Arial,sans-serif" font-size="12" font-weight="700">Alicate universal 8 pulg</text>
+  <text x="300" y="239" text-anchor="end" fill="#35473b" fill-opacity=".62" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.2">HERRAMIENTAS MANUALES</text>
+  <text x="20" y="25" fill="#35473b" fill-opacity=".56" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.4">ILUSTRACIÓN REFERENCIAL</text>
+</svg>

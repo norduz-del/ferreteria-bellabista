@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-label="Ilustración referencial de Sierra circular 7 1/4 pulg">
+  <rect width="320" height="260" fill="#e4ecea"/>
+  <path d="M0 214 320 168v92H0z" fill="#a5b8b2" opacity=".18"/>
+  <circle cx="246" cy="59" r="49" fill="#c5d98b" opacity=".36"/>
+  <circle cx="246" cy="59" r="62" fill="none" stroke="#31545a" stroke-opacity=".08"/>
+  <g fill="#31545a" stroke="#31545a" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-3 160 135)"><path d="M91 96h97a23 23 0 0 1 23 23v31h-41v-15h-79a20 20 0 0 1-20-20v-1a18 18 0 0 1 20-18z"/><path d="M156 150h38l-14 40h-39z"/><path d="M211 111h30v22h-30z"/><path class="detail" d="M88 111h50m15-15v18m18-18v18"/></g>
+  <g fill="none" stroke="#c5d98b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-3 160 135)"><path d="M91 96h97a23 23 0 0 1 23 23v31h-41v-15h-79a20 20 0 0 1-20-20v-1a18 18 0 0 1 20-18z"/><path d="M156 150h38l-14 40h-39z"/><path d="M211 111h30v22h-30z"/><path class="detail" d="M88 111h50m15-15v18m18-18v18"/></g>
+  <path d="M20 220h280" stroke="#31545a" stroke-opacity=".16"/>
+  <text x="20" y="239" fill="#31545a" font-family="Arial,sans-serif" font-size="12" font-weight="700">Sierra circular 7 1/4 pulg</text>
+  <text x="300" y="239" text-anchor="end" fill="#31545a" fill-opacity=".62" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.2">HERRAMIENTAS ELÉCTRICAS</text>
+  <text x="20" y="25" fill="#31545a" fill-opacity=".56" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.4">ILUSTRACIÓN REFERENCIAL</text>
+</svg>

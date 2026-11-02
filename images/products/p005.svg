@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-label="Ilustración referencial de Juego de destornilladores x6">
+  <rect width="320" height="260" fill="#e4ecea"/>
+  <path d="M0 214 320 168v92H0z" fill="#a5b8b2" opacity=".18"/>
+  <circle cx="246" cy="59" r="49" fill="#c5d98b" opacity=".36"/>
+  <circle cx="246" cy="59" r="62" fill="none" stroke="#31545a" stroke-opacity=".08"/>
+  <g fill="#31545a" stroke="#31545a" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-2 160 135)"><path d="M132 90 181 41l18 18-49 49z"/><path d="m112 108 30-30 20 20-30 30-12 40-20-20z"/><rect x="93" y="154" width="27" height="76" rx="12" transform="rotate(42 106 192)"/><path class="detail" d="m183 46 12 12"/></g>
+  <g fill="none" stroke="#c5d98b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-2 160 135)"><path d="M132 90 181 41l18 18-49 49z"/><path d="m112 108 30-30 20 20-30 30-12 40-20-20z"/><rect x="93" y="154" width="27" height="76" rx="12" transform="rotate(42 106 192)"/><path class="detail" d="m183 46 12 12"/></g>
+  <path d="M20 220h280" stroke="#31545a" stroke-opacity=".16"/>
+  <text x="20" y="239" fill="#31545a" font-family="Arial,sans-serif" font-size="12" font-weight="700">Juego de destornilladores x</text>
+  <text x="300" y="239" text-anchor="end" fill="#31545a" fill-opacity=".62" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.2">HERRAMIENTAS MANUALES</text>
+  <text x="20" y="25" fill="#31545a" fill-opacity=".56" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing="1.4">ILUSTRACIÓN REFERENCIAL</text>
+</svg>

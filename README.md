@@ -4,7 +4,7 @@ Sitio estático para consultar el inventario y preparar pedidos de Ferretería B
 
 ## Archivos principales
 
-- `index.html`: página principal con navegación, inventario, carrito y contacto.
+- `index.html`: página principal con visión de marca, accesos a categorías, guía de pedido, inventario, carrito y contacto.
 - `css/styles.css`: estilos.
 - `js/app.js`: carga y muestra la hoja, búsqueda, filtro por categoría, carrito local y pedido por WhatsApp.
 - `js/catalog.js`: lectura y validación del CSV.

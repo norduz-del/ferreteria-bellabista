@@ -178,6 +178,17 @@ $("#cart-items").addEventListener("click", (event) => {
 
 $("#search").addEventListener("input", renderCatalog);
 $("#category").addEventListener("change", renderCatalog);
+$(".category-grid").addEventListener("click", (event) => {
+  const tile = event.target.closest("[data-category-link]");
+  if (!tile) return;
+  const category = tile.dataset.categoryLink;
+  const select = $("#category");
+  if ([...select.options].some((option) => option.value === category)) {
+    select.value = category;
+    select.dispatchEvent(new Event("change", { bubbles: true }));
+  }
+  $("#inventario").scrollIntoView({ behavior: "smooth" });
+});
 $("#year").textContent = String(new Date().getFullYear());
 
 $("#catalog").addEventListener("error", (event) => {
